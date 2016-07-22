@@ -1,0 +1,110 @@
+.container {
+	height: 700px;
+	padding: 30px 70px;
+	margin: 0 auto;
+}
+
+#horno-title {
+	color: black;
+	position: relative;
+	top: 31px;
+    left: 85px;
+}
+
+.oven {
+	width: 768px;
+	visibility:  hidden;
+	height: 500px;
+	border: 5px solid black;
+	border-radius: 5px;
+	background: url("horno.png") no-repeat;
+	background-size: 768px 800px;
+	margin: 0 auto;
+}
+
+#cook {
+	position: relative;
+	top: 113px;
+	left: 173px;
+}
+
+input {
+	height: 20px;
+	position: relative;
+  top: 100px;
+  left: 100px;
+  border: 2px solid #999;
+}
+
+input[type="text"], input[type="submit"] {
+  width: 200px;
+    
+}
+
+input[type="time"] {
+  width: 100px;
+  
+}
+
+#cock-data {
+	top: 40px;
+	left: 309px;
+
+}
+#timer {
+	width: 145px;
+	height: 90px;
+	position: relative;
+	top: 40px;
+	left: 309px;
+	border: 2px solid #999;
+	text-align: center;
+	color: white;
+}
+
+#status {
+	width: 145px;
+	height: 90px;
+	position: relative;
+	top: 20px;
+	left: 309px;
+	text-align: center;
+	color: white;
+}
+
+
+#countdown {
+	color: white;
+	padding-left: 30px;
+}
+
+
+#history {
+	visibility: visible;
+	width: 768px;
+	margin: 0 auto;
+}
+
+.recien-salidas {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+.QUEMADO {
+	background-color: #FF0000;
+}
+
+.LISTO {
+	background-color: #008600;
+}
+
+.crudo {
+	background-color: #7F7F7F;
+}
+
+.casi-listo {
+	background-color: #FF7F00;
+}
